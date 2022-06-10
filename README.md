@@ -38,7 +38,7 @@ O código acima se refere ao banco de dados utilizado no projeto. Para que este 
  3.2 - Agora digite <strong>php artisan migrate</strong><br>
  3.3 - Deixe o cmd aberto neste ponto, ele será utilizado nos tópicos a seguir.
  
- <h3>4 - Com todos os passos acima realizados com sucesso, podemos finalmente executar e testar o programa. Que será feito da seguinte forma: </h3>
+ <h3>4 - Com todos os passos acima realizados com sucesso, podemos finalmente executar e testar o programa. Que poderá ser feito da seguinte forma: </h3>
  4.1 - Com o cmd aberto, digite: <strong>php artisan serve</strong> ou <strong>php artisan serve --port=8080 </strong>para escolher uma porta específica. Lembre-se de que é necessário ter rodado o comando <strong>cd minasVeiculos</strong> anteriormente, pois todos os comandos a partir daqui deverão ser feitos dentro da pasta do projeto.<br> 
  4.2 - Agora que programa já está rodando, basta abrir um navegador e entrar no seguinte endereço: http://127.0.0.1:8000/veiculo/todos. Esta página será nossa <strong>index</strong>, visto que é um projeto simples. Lembre-se que, se você optou por mudar a porta no tópico anterior, será necessário mudar no link da "index".<br>
  4.3 - A partir daqui é só fazer os testes que desejar, como adicionar novos veículos, editar veículos, excluir e listar os veículos. Ou seja, as funções de um CRUD.<br>
