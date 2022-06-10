@@ -1,6 +1,17 @@
 # MinasVeiculos - Como executar e testar o projeto:
  Implementação de um CRUD em PHP utilizando Laravel, Composer, MySQL, HTML e CSS.
  
+ <h2>Guia Resumido:</h2>
+    I - Criar Banco de Dados.<br>
+    II - Criar projeto: <strong>create-project --prefer-dist laravel/laravel minasVeiculos</strong>.<br>
+    III - Fazer o download deste projeto, copiar os arquivos e colar na pasta do tópico anterior, substituindo.<br>
+    IV - Configurar arquivo <strong>.env com o banco de dados criado.</strong><br>
+    V - cmd: <strong>cd minasVeiculos</strong><br>
+    VI - cmd: <strong>php artisan migrate</strong><br>
+    VII - cmd: <strong>php artisan serve</strong><br>
+    VIII - Acessar http://127.0.0.1:8000/veiculo/todos e começar a testar.
+ 
+ <h2>Guia completo: </h2>
  <h3>1 - Este programa utiliza Laravel, Composer e MySQL para funcionar, então é necessário dizponibilizar estes recursos na máquina anteriormente:</h3>
     1.1 - PHP: Utilizei a última versão, que pode ser obtida em https://windows.php.net/download#php-8.1 (sistemas windows - non thread safe). Quando o PHP for instalado, será necessário ativar algumas extenções do mesmo para que o composer (consequentemente, o projeto) funcione. Dentro da pasta C:\php existe um aquivo chamado php.ini, este arquivo deverá ser alterado de modo que as extenções necessárias para o projeto sejam ativadas. Neste arquivo, procure a seção 'Dynamic Extencions', dentro desta seção descomente tirando o ';' das seguintes extenções: extension=curl, extension=fileinfo, extension=mbstring, extension=mysqli, extension=openssl, extension=pdo_mysql. Se alguma delas não estiver no arquivo, simplesmente adicione copiando e colando.<br>
     1.2 - Composer: Utilizei a última versão, que pode ser obtida em https://getcomposer.org/download/ (recomendo instalar a versão .exe)<br>
