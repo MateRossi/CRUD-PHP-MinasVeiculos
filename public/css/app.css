@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 20px 40px 0px 10px;
+    display: inline-block;
+    font-size: large;
+    width:100px;
+  }
+  
+  input[type=submit] {
+    background-color: #28bd1b;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: solid;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  #list_veiculos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #list_veiculos td, #list_veiculos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #list_veiculos tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+
+  #list_veiculos tr:hover {
+    background-color: #ddd;
+  }
+
+  #list_veiculos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #050638;
+    color: white;
+  }
+
+  #button_edit {
+    background-color: #aaa820;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;  
+  }
+
+  #button_cancel {
+    background-color: #d82c1f;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: solid;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left; 
+  }
+
+  #button_delete {
+    background-color: #800a0a;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;  
+  }
+
+  #button_new {
+    background-color: #149429;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;  
+  }
+
+  #button_ok {
+    background-color: #149429;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    padding-left:5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;  
+  }
+
+  #button_back {
+    text-align: center;
+    background-color: #1655dd;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    padding-left:5px;
+    border: solid;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left; 
+  }
+
+  h1 {
+    text-align: center;
+    color: #111385;
+  }
+
+  h3 {
+    text-align: left;
+    color: #111385;
+    padding-left: 5px;
+  }
+
+
